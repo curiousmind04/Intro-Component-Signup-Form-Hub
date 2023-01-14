@@ -177,6 +177,7 @@ h1 {
   }
   .intro {
     width: 70%;
+    margin-left: 4rem;
   }
   h1 {
     font-size: 3rem;
@@ -189,7 +190,7 @@ h1 {
     width: 95%;
   }
   .price {
-    margin-top: 2rem;
+    margin-top: 4rem;
     width: 70%;
     height: 3.7rem;
   }
