@@ -67,7 +67,6 @@ h1 {
 }
 
 .price p {
-  /* font-weight: 400; */
   color: #fff;
   width: 60%;
   text-align: center;
@@ -175,9 +174,11 @@ h1 {
 @media (min-width: 52rem) {
   body {
     background-image: url("images/bg-intro-desktop.png");
+    /* min-height: 650px; */
   }
   main {
     flex-direction: row;
+    min-height: 41rem;
   }
   .intro {
     width: 70%;
@@ -194,7 +195,7 @@ h1 {
     width: 95%;
   }
   .price {
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
     width: 70%;
     height: 3.7rem;
   }
@@ -204,7 +205,8 @@ h1 {
   .form-container {
     width: 70%;
     padding: 2.6rem;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
+    margin-bottom: 0;
   }
   .form input,
   .form button {
